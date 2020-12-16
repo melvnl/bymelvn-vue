@@ -1,0 +1,93 @@
+* {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+/* #app .container-about .row {
+  margin: 100px 5px 0px 5px;
+}
+
+#app .container-about .row img {
+  margin-bottom: 90px;
+  width: 100%;
+  height: 100%;
+} */
+
+
+
+@media (max-width: 414px) {
+  #app .container-about,
+  #app .container-experiences .container-frameworks {
+    padding: 15px !important;
+  }
+  #app .container-experiences .row {
+    padding: 0px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  #app .container-hero .row .col-lg-7 {
+    margin-top: 50px;
+  }
+  #app .container-hero .row .col-lg-7 p {
+    font-size: 24px;
+  }
+  #app .container-hero .row .col-lg-5 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  #app .container-hero .row .col-lg-5 img {
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  #app .container-navbar .navbar {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  #app .container-navbar .navbar .navbar-toggler {
+    z-index: 1000;
+    cursor: pointer;
+  }
+  #app .container-navbar .navbar .navbar-toggler .toggler-icon {
+    color: #f2994a !important;
+  }
+  #app .container-navbar .navbar .navbar-toggler:active,
+  #app .container-navbar .navbar .navbar-toggler:focus {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  #app .container-navbar .navbar .collapsed {
+    margin-left: auto;
+  }
+  #app .container-navbar .navbar .collapsed .navbar-nav {
+    position: fixed !important;
+    top: 0px !important;
+    left: -100% !important;
+    display: block !important;
+    padding: 100px 50px !important;
+    text-align: center !important;
+    width: 100% !important;
+    height: 100vh !important;
+    background: #000000 !important;
+    -webkit-transition: 1s !important;
+    transition: 1s !important;
+    z-index: 999 !important;
+  }
+  #app .container-navbar .navbar .collapsed .navbar-nav .active a {
+    color: #f2994a;
+  }
+  #app .container-navbar .navbar .collapsed .navbar-nav.activated {
+    left: 0 !important;
+    overflow: hidden;
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
+  .lock-scroll {
+    overflow: hidden;
+  }
+}
+/*# sourceMappingURL=main.css.map */

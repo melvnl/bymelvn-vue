@@ -1,17 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
+    <title>International Web Developer - Melvin</title>
+    <meta
+      name="og:description"
+      content="Melvin Liu's Portofolio, Freelance Web Developer in Jakarta"
+    />
+    <meta
+      name="description"
+      content="Melvin Liu's Portofolio, Freelance Web Developer in Jakarta"
+    />
+    <meta
+      name="keywords"
+      content="Melvin, Liu, Melvin Liu, melvinliu, bymelvn, bymelvn.com, Freelance Web Developer, Computer Science Binus, futur.id, android developer"
+    />
+    <meta name="author" content="Melvin Liu, bymelvn" />
+    <meta name="og:title" content="bymelvn" />
+    <meta name="og:type" content="website" />
+    <meta name="og:url" content="https://www.bymelvn.com/" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/24e014abc8.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174976263-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174976263-1');
+</script>
+
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
     </noscript>
     <div id="app"></div>
+    <script src="main.js"></script>
+
     <!-- built files will be auto injected -->
   </body>
 </html>
